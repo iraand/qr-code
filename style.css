@@ -162,7 +162,8 @@ body {
 .details{
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.33;   
+    line-height: 1.33;
+    padding-bottom: 16px;   
 }
 .amount,
 .description {
@@ -380,6 +381,10 @@ body {
     }
     .timer {
         display: block;
+    }
+    .details{
+        font-size: 20px;
+        line-height: 1.6; 
     }
 }
 
