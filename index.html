@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+    <title>
+        QR code     
+    </title>
+    <link rel="stylesheet" href="normalize.css">   
+    <link rel="stylesheet" href="style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>   
+    <section class="payment">
+        <div class="progress-bar">
+            <div class="progress-bar__progress"></div>
+            <div class="wallet">
+                <img class="wallet__icon" src="./assets/wallet.svg" alt="" width="30" height="30">
+                <p class="wallet__text">The wallet is valid for</p>                   
+            </div>               
+            <p class="progress-bar__time">16 : 45</p>
+        </div><!-- progress-bar --> 
+        <div class="payment__conteiner">
+            <div class="pay__wrapper">
+                <p class="pay__title">Pay for your order</p>
+                <p class="pay__text">To pay, use QR code
+                <br>or copy and paste the payment details into your wallet.</p>
+                <div class="qr-code">
+                    <img class="qr-code__img" src="./assets/qr-code.svg" alt="" width="160" height="160">
+                </div>
+                <div class="address">
+                    <p class="label">Address</p>
+                    <div class="address__container">
+                        <div class="address__wrapper">
+                            <button onclick="" class="address__button"></button>
+                            <input class="address__input" type="text" value="3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5">
+                        </div>
+                        <button class="qr-code-scanner"></button>
+                    </div>
+       
+                </div><!-- address-->  
+            </div>
+            <div class="additional-info">
+                <p class="additional-info__title">Additional information</p>
+                <p class="details">Payment details</p>
+                <div class="amount">
+                    <div>FIAT amount</div>
+                    <div class="price">50.00</div>
+                    <div class="currency">EUR</div>
+                    <div class="price">48.98</div>
+                    <div class="currency">USD</div>
+                    <div class="price">25.12</div>
+                    <div class="currency">GBP</div> 
+                    <div>
+                        Exchange rate<img class="info-icon" src="./assets/i.svg" alt="" width="5" height="10">
+                    </div>
+                    <div class="price">1 BTC ~ 29,374.90</div>
+                    <div class="currency">USD</div>                                         
+                </div>
+                <div class="divider"></div>
+                <p class="details">Payment description</p>
+                <div class="description">
+                    <div>ID</div>
+                    <div  class="currency">111222333</div>
+                    <div class="description__text">RS-X Efekt Gradient Sneakers, Beige</div>
+                    <div>Size:</div>
+                    <div  class="currency">40</div>
+                </div>  
+                <div class="timer">  
+                    <p class="timer__text">The wallet is valid for</p>
+                    <div class="circle"></div>
+                    <p class="timer__time"><span class="minutes">16</span>:<span class="seconds">45</span></p>
+                </div>
+            </div><!-- additional-info -->
+        </div><!-- payment__conteiner --> 
+        <div class="actions">
+            <div class="actions__wrapper">
+                <input class="actions__input" type="text" value="0.023435474567 BTC">
+                <button onclick="" class="actions__button--copy"> </button>
+            </div>
+            <div class="actions__buttons">
+                <button class="actions__button actions__button--cancel">Cancel</button>
+                <button class="actions__button actions__button--paid">Mark as paid</button>
+            </div>
+        </div><!-- actions -->     
+    </section><!-- section -->
+  
+</body>
+</html>
