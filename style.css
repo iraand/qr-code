@@ -328,12 +328,13 @@ body {
     }
     .payment__conteiner {
         padding:0;
-        margin-top: 64px;
+        margin-top: 0;
         display: flex;
         margin-bottom: 8em;
     }
     .pay__wrapper{
-        max-width: 480px;    
+        max-width: 480px;  
+        margin-top: 64px;  
     }
     .pay__title {
         font-size: 44px;
@@ -350,6 +351,7 @@ body {
     }
     .additional-info {
         padding: 2.75em 2em 4px 2em;
+        margin-top: 24px; 
     }
     
     .additional-info__title {
