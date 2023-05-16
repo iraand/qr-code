@@ -315,6 +315,11 @@ body {
 .circle {
     width: 68px;
     height: 68px;
+    margin: 0 auto;
+}
+#canvas{
+    background: #6E85FE;
+    border-radius: 100%;   
 }
 
 @media only screen and (min-width: 940px) {
