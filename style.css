@@ -94,9 +94,9 @@ body {
     min-width:202px;
     max-width:256px;
 }
-.qr-code__img {
+#qrcode img {
     width:100%;
-    height:auto;
+    height:100%;
 }
 .address{
     padding:2.75em 0;
